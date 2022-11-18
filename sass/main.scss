@@ -1,5 +1,14 @@
 @import './base/base';
 @import './base/reset';
+
+@import './utils/mixins';
+@import './utils/variables';
+
+
+@import './components/modal';
+@import './components/networks';
+@import './components/container';
+
 @import './header';
 @import './hero';
 @import './features';
@@ -8,11 +17,8 @@
 @import './clients';
 @import './footer';
 @import './portfolio';
-@import './components/container';
-@import './components/modal';
-@import './components/networks';
-@import './utils/variables';
-@import './utils/mixins';
+
+
 
 
 

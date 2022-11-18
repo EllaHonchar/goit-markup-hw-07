@@ -20,7 +20,8 @@
 
     @include fonts(14px, 500, 1.14, 0.02em);
     
-    @include section-indent(32px);
+    @include section-indent(32px, 32px);
+
 
     color: var(--title-text-color);
   
@@ -46,11 +47,11 @@
   .contact-nav-link {
     display: flex;
 
-    @include fonts(14px, 500, 1.14, 00.02em);
+    @include fonts (14px, 500, 1.14, 00.02em);
 
-    @include section-indent(32px);
+    @include section-indent(32px, 32px);
+
     align-items: center;
-   
     color: var(--main-text-color);
   
     transition: color var(--time) var(--cubic);
@@ -69,7 +70,7 @@
 
   @include fonts(26px, 700, 1.19, 00.03em);
 
-  @include section-indent(24px);
+  @include section-indent(24px, 24px);
   }
   .logo {
     color: var(--button-hero-color);
