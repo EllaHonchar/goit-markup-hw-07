@@ -1,0 +1,11 @@
+.section {
+    @include section-indent(94px);
+  }
+.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

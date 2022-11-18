@@ -1,0 +1,38 @@
+
+.feature-list {
+    display: flex;
+}
+.feature-list__item {
+    width: 270px;
+   
+    &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+    
+.feature-list__title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: start;
+  }
+
+.feature-list__text {
+    line-height: 1.7;
+    color: var(--main-text-color);
+}
+.feature-list__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+  
+    background-color: var(--features-bg-color);
+  }
+  
+
+
+  
