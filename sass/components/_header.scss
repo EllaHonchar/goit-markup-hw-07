@@ -11,7 +11,7 @@
       }
   }
   
-    .site-nav {
+.site-nav {
     display: flex;
     padding: 0px;
   }
@@ -19,9 +19,7 @@
     display: block;
 
     @include fonts(14px, 500, 1.14, 0.02em);
-    
     @include section-indent(32px, 32px);
-
 
     color: var(--title-text-color);
   
